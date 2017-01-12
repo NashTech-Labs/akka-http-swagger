@@ -21,7 +21,7 @@ object AkkaSwagger extends PingHttpService{
     val interface = "localhost"
     val port = 8080
 
-    def route: Route = readRoute ~ new SwaggerDocService(actorSystem).routes
+    def route: Route = webSocketRoute ~ readRoute ~ new SwaggerDocService(actorSystem).routes
 
     val binding = Http().bindAndHandle(route, interface, port)
     println(s"Server is now online at http://$interface:$port\nPress RETURN to stop...")
