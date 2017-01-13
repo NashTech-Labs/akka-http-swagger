@@ -13,6 +13,9 @@ import io.swagger.annotations.{ApiImplicitParams, ApiOperation, ApiResponses, _}
 trait PingHttpService extends Directives {
 
   @ApiOperation(value = "Find a ping", notes = "Returns a pong", httpMethod = "GET", response = classOf[String])
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "Authorization", value = "Authorization", required = true,
+      dataType = "string", paramType = "header")))
   @ApiResponses(Array(
     new ApiResponse(code = 404, message = "Pong not found"),
     new ApiResponse(code = 200, message = "Pong found"),
@@ -24,10 +27,12 @@ trait PingHttpService extends Directives {
   @Path("/postPing")
   @ApiOperation(value = "Find a ping", notes = "Returns a pong", httpMethod = "POST",response = classOf[String])
   @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "Authorization", value = "Authorization", required = true,
+      dataType = "string", paramType = "header"),
     new ApiImplicitParam(name = "data", value = "\"data\" to sum", required = true,
-      dataType = "string", paramType = "query"),
+      dataType = "string", paramType = "form"),
     new ApiImplicitParam(name = "file", required = true,
-      dataType = "file", paramType = "query")
+      dataType = "file", paramType = "form")
     ))
   @ApiResponses(Array(
     new ApiResponse(code = 404, message = "websocket not found"),
@@ -55,9 +60,9 @@ trait PingHttpService extends Directives {
     new ApiImplicitParam(name = "Authorization", value = "Authorization", required = true,
       dataType = "string", paramType = "header"),
     new ApiImplicitParam(name = "data", value = "data", required = true,
-      dataType = "string", paramType = "body"),
+      dataType = "string", paramType = "form"),
     new ApiImplicitParam(name = "file", value = "file", required = true,
-      dataType = "file", paramType = "query")
+      dataType = "file", paramType = "form")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 404, message = "websocket not found"),
