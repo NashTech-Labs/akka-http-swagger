@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for akkaswagger#akkaswagger_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkaswagger#akkaswagger_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35070368[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42b2a76b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -130,7 +130,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/15.0/guava-15.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;15.0!guava.pom(pom.original) (1991ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;15.0!guava.pom(pom.original) (611ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;15.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;15.0 {}[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;15.0 ...[0m
@@ -144,7 +144,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava-parent/15.0/guava-parent-15.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;15.0!guava-parent.pom(pom.original) (1415ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;15.0!guava-parent.pom(pom.original) (654ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -345,7 +345,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;18.0!guava.pom(pom.original) (1307ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;18.0!guava.pom(pom.original) (637ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;18.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;18.0 {}[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;18.0 ...[0m
@@ -359,7 +359,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;18.0!guava-parent.pom(pom.original) (1308ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;18.0!guava-parent.pom(pom.original) (650ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -477,7 +477,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.woodstox#stax2-api;3.1.4!stax2-api.pom(pom.original) (1312ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.woodstox#stax2-api;3.1.4!stax2-api.pom(pom.original) (624ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -3217,7 +3217,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18195ms :: artifacts dl 30ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 10182ms :: artifacts dl 74ms[0m
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 compile produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 runtime produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 test produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-test.xml[0m
@@ -3231,5 +3231,5 @@
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 docs produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 pom produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkaswagger#akkaswagger_2.11;1.0 scala-tool produced in /home/dhirendra/Workspace/Myproject/Akka-http-Swagger/target/resolution-cache/reports/akkaswagger-akkaswagger_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (18195ms resolve - 30ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (10182ms resolve - 74ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
